@@ -5,7 +5,7 @@ const NUM_DICE = 5;
 
 // Use localhost while testing.
 // Later we will replace this with your Azure Node.js URL.
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://dice-roller-ijj-node-b0a6caekg9frarc3.centralus-01.azurewebsites.net';
 
 let rollCount = 0;
 

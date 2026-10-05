@@ -1,0 +1,151 @@
+/* General page */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffd900;
+    color: white;
+}
+
+/* Main game area */
+.table {
+    max-width: 950px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+/* Title */
+.marquee h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin: 0;
+}
+
+.marquee h1 span {
+    color: #410202;
+}
+
+.tagline {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+/* Dice container */
+.rack {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual dice */
+.die-slot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.die-slot label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Dice face */
+.die-face {
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+    background-color: white;
+    color: #222;
+
+    border: none;
+    border-radius: 15px;
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Total */
+.total-row {
+    margin: 35px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.total-row label {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.total-field {
+    width: 80px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+
+    background-color: #f2c94c;
+    color: #222;
+
+    border: none;
+    border-radius: 10px;
+}
+
+/* Roll button */
+.roll-btn {
+    padding: 16px 40px;
+
+    background-color: #f2c94c;
+    color: #1c4a8f;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.roll-btn:hover {
+    background-color: #ffe083;
+    transform: scale(1.05);
+}
+
+/* Roll counter */
+.roll-count {
+    font-size: 25px;
+    margin: 20px 0 40px;
+}
+
+/* Instructions */
+.instructions {
+    margin-top: 40px;
+    padding: 25px;
+
+    background-color: black;
+    border-radius: 30px;
+
+    text-align: center;
+}
+
+.instructions h2 {
+    font-family: 'Fraunces', serif;
+    color: #f2c94c;
+}
+
+.instructions p {
+    line-height: 1.7;
+    color: #e1eee7;
+}
